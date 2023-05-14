@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마이데이터</title>
+  <link rel="stylesheet" href="css/reset.css" >
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/jquery-3.6.2.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="over-bg"></div>
+    <div class="header">
+      <div class="pop-mune">
+        <div class="pop-mune-inner inner">
+          <h2 class="title">MENU</h2>
+          <a href="#">close</a>
+          <div class="pop-nav">
+            <div class="nav01">
+              <h2>이용안내</h2>
+              <ul>
+                <li><a href="#">서비스 소개</a></li>
+                <li><a href="#">마이데이터 소개</a></li>
+                <li>
+                  <a href="#">마이데이터 소개</a>
+                  <ul>
+                    <li><a href="#">사업소개</a></li>
+                    <li><a href="#">종합기반 조성</a></li>
+                    <li><a href="#">사업화지원</a></li>
+                    <li><a href="#">인식제고</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="nav02">
+              <h2>통합지원 서비스</h2>
+              <ul>
+                <li>
+                  <a href="#">마이데이터 가이드북</a>
+                  <ul>
+                    <li><a href="#">절차별 점검사항</a></li>
+                    <li><a href="#">법·제도</a></li>
+                    <li><a href="#">비즈니스 모델</a></li>
+                    <li><a href="#">요소기술</a></li>
+                    <li><a href="#">주요 기능 구축</a></li>
+                    <li><a href="#">공통 요구사항</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">전문가 상시 자문</a></li>
+                <li>
+                  <a href="#">API 소재정보</a>
+                  <ul>
+                    <li><a href="#">소재정보 목록</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">지원사업 안내</a></li>
+              </ul>
+            </div>
+            <div class="nav03">
+              <h2>마이데이터 서비스</h2>
+              <ul>
+                <li><a href="#">서비스 맵</a></li>
+                <li><a href="#">서비스 추천</a></li>
+                <li><a href="#">서비스 체험</a></li>
+                <li><a href="#">서비스 체험후기</a></li>
+              </ul>
+            </div>
+            <div class="nav04">
+              <h2>참여광장</h2>
+              <ul>
+                <li><a href="#">마이데이터 MBTI</a></li>
+                <li><a href="#">마이데이터 소식</a></li>
+                <li><a href="#">아이디어 제한</a></li>
+                <li><a href="#">설문 참여</a></li>
+              </ul>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <div class="header-inner inner">
+        <div class="logo">
+          <a href="#"><img src="img/logo.png" alt="로고"></a>
+        </div>
+        <div class="menu-box">
+          <nav class="header-nav">
+            <ul class="dep-1">
+              <li><a href="#">이용안내</a>
+                <ul class="dep-2">
+                  <li><a href="#">서비스 소개</a></li>
+                  <li><a href="#">마이데이터 소개</a></li>
+                  <li><a href="#">사업안내</a></li>
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </li>
+              <li><a href="#">통합지원 서비스</a>
+                <ul class="dep-2">
+                  <li><a href="#">마이데이터 가이드북</a></li>
+                  <li><a href="#">전무가 상시자문</a></li>
+                  <li><a href="#">API 소재정보</a></li>
+                  <li><a href="#">지원사업 안내</a></li>
+                </ul>
+              </li>
+              <li><a href="#">마이데이터 서비스</a>
+                <ul class="dep-2">
+                  <li><a href="#">서비스 맵</a></li>
+                  <li><a href="#">서비스 추천</a></li>
+                  <li><a href="#">서비스 체험</a></li>
+                  <li><a href="#">서비스 체험 후기</a></li>
+                </ul>
+              </li>
+              <li><a href="#">참여광장</a>
+                <ul class="dep-2">
+                  <li><a href="#" >마이데이터 MBTI</a></li>
+                  <li><a href="#">마이데이터 소식</a></li>
+                  <li><a href="#">아이디어 제안</a></li>
+                  <li><a href="#">설문참여</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="all-menu"></a>
+        </div>
+      </div>
+    </div>
+    <div class="sub-bg"></div>
+    <div class="simple">
+      <div class="simple-inner inner">
+        <div class="swiper popSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="img/20221213164041839664.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="img/20221213163643610794.jpg" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="information">
+          <div class="search">
+            <div class="sea-top">
+              <span>SEARCH</span>
+              <div class="main-sea">
+                <input type="text" placeholder="검색어를 입력하세요">
+                <button><img src="img/search_btn.png" alt="검색하기"></button>
+              </div>
+            </div>
+            <ul class="sea-bottom">
+              <li><a href="#">#데이터</a></li>
+              <li><a href="#">#API소재 정보</a></li>
+              <li><a href="#">#마이데이터</a></li>
+              <li><a href="#">#활용제도</a></li>
+            </ul>
+          </div>
+          <div class="infor-map">
+            <ul class="map">
+              <li class="map-1">
+                <a href="#">
+                  <p>
+                    <span class="tit">가이드북</span>
+                    <span class="txt">마이데이터 활용법</span>
+                  </p>
+                </a>
+              </li>
+              <li class="map-2">
+                <a href="#">
+                  <p>
+                  <span class="tit">상시자문</span>
+                  <span class="txt">전무가 답변을 제공</span>
+                  </p>
+                </a>
+              </li>
+              <li class="map-3">
+                <a href="#">
+                  <p>
+                    <span class="tit">API 소재정보</span>
+                    <span class="txt">다양한 서비스데이터</span>
+                  </p>
+                </a>
+              </li>
+              <li class="map-4">
+                <a href="#">
+                  <p>
+                    <span class="tit">서비스맵</span>
+                    <span class="txt">쉽고 편한 마이데이터</span>
+                  </p>
+                </a>
+              </li>
+              <li class="map-5">
+                <a href="#">
+                  <p>
+                    <span class="tit">서비스 추천</span>
+                    <span class="txt">나에게 맞는 서비스</span>
+                  </p>
+                </a>
+              </li>
+              <li class="map-6">
+                <a href="#">
+                  <p>
+                  <span class="tit">서비스 체험</span>
+                  <span class="txt">미리 체험하는 서비스</span>
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-inner inner">
+          <p>서비스 카테고리</p>
+          <ul class="category">
+            <li class="cat01"><a href="#">건강/의료</a></li>
+            <li class="cat02"><a href="#">금융</a></li>
+            <li class="cat03"><a href="#">소비/지출</a></li>
+            <li class="cat04"><a href="#">교통</a></li>
+            <li class="cat05"><a href="#">공공/복지</a></li>
+            <li class="cat06"><a href="#">유통</a></li>
+            <li class="cat07"><a href="#">학술</a></li>
+            <li class="cat08"><a href="#">교육/취업</a></li>
+            <li class="cat09"><a href="#">문화/관광</a></li>
+            <li class="cat10"><a href="#">종합관리</a></li>
+          </ul>
+          <a href="#">전체메뉴</a>
+        </div>
+      </div>
+    </div>
+    <div class="total-service">
+      <div class="total-inner inner">
+        <h1 class="title">통합지원 서비스</h1>
+        <div class="total-top">
+          <div class="con"><img src="img/contact_img.jpg" alt="컨택트"></div>
+          <div class="apply">
+            <p class="p-tit">마이데이터</p>
+            <p class="p-tit">
+              <span>전문가에게 자문을</span>
+              신청해보세요.
+            </p> 
+            <span>사업화, 법·제도, 기술<br> 분야별 전문가에게 물어보세요</span>
+            <a href="#">전문가 자문 신청</a>
+          </div>
+          <div class="api">
+            <h2 class="api-tit">API 소재정보 리스트 <a href="#">more</a></h2>
+            <ul>
+              <li>
+                <a href="#">메디팡팡_투약정보</a>
+                <ul class="sub">
+                  <li><a href="#">강릉아산병원을(를) 이용한 사람들의 투약정보...</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">메디팡팡_투약정보</a>
+                <ul class="sub">
+                  <li><a href="#">부산대병원을(를) 이용한 사람들의 투약정보(약물코드),</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">메디팡팡_투약정보</a>
+                <ul class="sub">
+                  <li><a href="#">원주세브란스기독병원을(를) 이용한 사람들의 투약정보..</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="total-bottom">
+          <div class="guide-tit">
+            <span class="en">Guide</span>
+            <span class="ko">가이드북</span>
+          </div>
+          <ul class="guide-txt">
+            <li class="t01"><a href="#">절차별 점검사항</a></li>
+            <li class="t02"><a href="#">법ㆍ제도</a></li>
+            <li class="t03"><a href="#">비즈니스 모델</a></li>
+            <li class="t04"><a href="#">요소기술</a></li>
+            <li class="t05"><a href="#">주요 기능 구축</a></li>
+            <li class="t06"><a href="#">공통 요구 사항</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="experience">
+      <div class="exper-txt ">
+        <p class="p-tit inner">마이데이터 서비스 <span>체험하기</span></p>
+        <p class="p-txt inner">마이데이터 서비스가 궁금하세요?<br>여러 시뮬레이션을 통해 맞춤 서비스를 직접 체험해 보세요.</p>
+      </div>
+      <div class="exper-inner">
+      <div class="swiper exSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide ex01">
+              <span class="tlak">진료 검사결과가<br>잘 기억이 안나네..</span>
+              <img src="img/exper01.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>정기적으로 병원진료를 받고 있는</b>
+                나아퍼님
+              </p>
+            </div>
+            <div class="swiper-slide ex02">
+              <span class="tlak">교토비를<br>더 절약하고 싶어!</span>
+              <img src="img/exper02.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>대중교통과 공유 이동수단을 자주 이용하는</b>
+                이뚜벅님
+              </p>
+            </div>
+            <div class="swiper-slide ex03">
+              <span class="tlak">항상 실패하는 식단조절<br>성공하고 싶어!</span>
+              <img src="img/exper03.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>다이어트에 관심이 많은 30대</b>
+                김슬림님
+              </p>
+            </div>
+            <div class="swiper-slide ex04">
+              <span class="tlak">신혼부부를 위한<br>대출상품 없나?</span>
+              <img src="img/exper04.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>내집마련 대출이 필요한</b>
+                신혼부부
+              </p>
+            </div>
+            <div class="swiper-slide ex05">
+              <span class="tlak">차에 모든 것<br>편하게 관리하고 싶어!</span>
+              <img src="img/exper05.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>스마트한 내 차 관리가 필요한</b>
+                나똑똑님
+            </div>
+            <div class="swiper-slide ex06">
+              <span class="tlak">생소한 재테크<br>어떻게 시작해야 좋을까?</span>
+              <img src="img/exper06.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>재테크에 관심이 많은 사회초년생</b>
+                박열심님
+            </div>
+            <div class="swiper-slide ex07">
+              <span class="tlak">월급 또 다 썼어..<br>대체 다 어디에 쓴거지?</span>
+              <img src="img/exper07.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>똑똑한 지출로 소비를 절약하고 싶은</b>
+                조절약님
+              </p>
+            </div>
+            <div class="swiper-slide ex08">
+              <span class="tlak">매출에 대한 세무관리<br>누가 도와줬으면..</span>
+              <img src="img/exper08.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>매출관리가 어려운</b>
+                나사장님
+              </p>
+            </div>
+            <div class="swiper-slide ex09">
+              <span class="tlak">매출자료<br>쉽게 볼 수 있는 방법없나?</span>
+              <img src="img/exper09.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>매출상승을 윈하 분석자료가 필요한</b>
+                유사장님
+              </p>
+            </div>
+            <div class="swiper-slide ex10">
+              <span class="tlak">나의첫 독립!<br>무슨 서류가 필요하지?</span>
+              <img src="img/exper10.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>서울로 독립한 20대 자취러</b>
+                최독립님
+              </p>
+            </div>
+            <div class="swiper-slide ex11">
+              <span class="tlak">내가 받을 수 있는<br>공공복지 혜택이 뭐지?</span>
+              <img src="img/exper11.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>나에게 맞는 복지 혜택을 알고 싶은</b>
+                이복지님
+              </p>
+            </div>
+            <div class="swiper-slide ex12">
+              <span class="tlak">내가 만들어낸 데이터로<br>무엇을 할 수 있을까?</span>
+              <img src="img/exper12.jpg" alt="">
+              <a href="#">플러스 버튼</a>
+              <p class="text">
+                <b>평범한 대한민국 직장인</b>
+                김마데님
+              </p>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+      </div>
+      <div class="exper-bg"></div>
+    </div>
+    <div class="recommend-list">
+      <div class="list-inner inner">
+        <div class="swiper listSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide-text">
+                <a href="#"><img src="img/20221227135430739226.png" alt=""><span>클락패스</span></a>
+                <p>유전자 정보와 건강 정보를 연계한 보험분석 서비스</p>
+              </div>
+              <div class="keyword">
+                <span>#건강검진 관리</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-text">
+                <a href="#"><img src="img/20221204133452949779.jpg" alt=""><span>퍼스터</span></a>
+                <p>응급실 진료 기록 및 일상생활 속의 건강기록을 모바일 앱(Private Cloud 기반)</p>
+              </div>
+              <div class="keyword">
+                <span>#혈당/혈압관리</span>
+              </div>   
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-text">
+                <a href="#"><img src="img/20221204142327553923.png" alt=""><span>페이코</span></a>
+                <p>계좌, 카드, 대출, 보험, 투자, 포인트 등 다양한 금융 자산의 통합조회 및 자산관리 서비스</p>
+              </div>
+              <div class="keyword">
+                <span>#재무 현황</span> <span>#퇴직연금 현황</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-text">
+                <a href="#"><img src="img/20221204154523187098.jpg" alt=""><span>라이프월릿</span></a>
+                <p>건강검진, 처방전, 유전자검사, 장내미생물검사 등 의료·건강 데이터 통합관리 및 맞춤 헬스케어 서비스</p>
+              </div>
+              <div class="keyword">
+                <span>#진료기록</span> <span>#투약 이력</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-text">
+                <a href="#"><img src="img/20221206101808944544.png" alt=""><span>스칼라뱅크</span></a>
+                <p>본인정보 활용동의를 통해 국회도서관으로부터 수집된 학술연구자 정보를 활용하여 연구자를 위한 전문서비스 제공</p>
+              </div>
+              <div class="keyword">
+                <span>#연구실적현황</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-text">
+                <a href="#"><img src="img/20221204152128833599.png" alt=""><span>캐롯</span></a>
+                <p>개인사업자를 위한<br>마이데이터 서비스</p>
+              </div>
+              <div class="keyword">
+                <span>#거래처 관리</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-text">
+                <a href="#"><img src="img/20221206094728774022.png" alt=""><span>캐시노트</span></a>
+                <p>챗봇·앱 기반으로 장부,금융, 식자재 구매, 사업자 전용 커뮤니티등 영업 관리 서비스 제공</p>
+              </div>
+              <div class="keyword">
+                <span>#대출상품 추천</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-text">
+                <a href="#"><img src="img/20221206101344352987.png" alt=""><span>에너지 마이데이터</span></a>
+                <p>에너지 데이터를 수집하여 분석결과를 사용자에게 제공하여 에너지를 절약할 수 있도록 지원</p>
+              </div>
+              <div class="keyword">
+                <span># 실시간 소비량</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="controller">
+          <div class="swiper-pagination pagination-progressbar"></div>
+          <div class="swiper-pagination pagination-fraction"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="play-button">
+            <div class="start"></div>
+            <div class="stop"></div>
+          </div>    
+        </div>
+      </div>
+    </div>
+    <div class="news">
+      <div class="news-inner inner">    
+        <div class="news-tap">
+          <div class="title"><p><span>새소식</span> 알고가세요</p> <a href="#">more</a></div>
+          <div class="news-title">
+            <ul>
+              <li><a href="#" class="active">공지사항</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <ul class="tap-txt1">
+            <li>
+              <a href="#">
+              <span>2023년 마이데이터 종합기반 조성사업 온라인 사업설명회 안내</span><span>2023-02-28</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              <span>2023년도 마이데이터 생태계 활성화를 위한 종합기반 조성사업 공고문</span><span>2023-02-28</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="tap-txt2">
+            <li>
+              <a href="#">
+              <span>마이데이터 원스톱 통합지원 서비스란?</span><span>2023-02-28</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              <span>마이데이터란?</span><span>2023-02-28</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="news-banner">뉴스 배너</a>
+      </div>
+    </div>
+    <footer>
+      <div class="f-top">
+        <div class="f-inner inner">
+          <ul class="t-text">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">포털 소개</a></li>
+            <li><a href="#">사업안내</a></li>
+            <li><a href="#">전문가/기업</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="f-bottom">
+        <div class="f-inner inner">
+          <address>
+            <p class="add-text">서울특별시 중구 세종대로9길 42 부영빌딩 7, 8, 11층 한국데이터산업진흥원 (우 04513)</p>
+            <ul class="info">
+              <li>원장 : 윤혜정</li>
+              <li>대표전화 : 02-3708-5300</li>
+              <li>팩스 : 02-318-5040</li>
+              <li>mydata@kdata.or.kr</li>
+            </ul>
+            <p class="copytight">Copyright ⓒ KOREA Data Agency. All rights reserved.</p>
+          </address>
+          <div class="b-icon">
+            <ul class="i-top">
+              <li><a href="#" class="fb">페이스북</a></li>
+              <li><a href="#" class="yt">유뷰브</a></li>
+              <li><a href="#" class="bl">블로그</a></li>
+              <li><a href="#" class="in">인스타그램</a></li>
+            </ul>
+            <a href="#" class="i-bottom">web접근성</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="top">
+      <a href="#">TOP</a>
+    </div>
+  </div>  
+</body>
+</html>
